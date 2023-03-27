@@ -20,7 +20,7 @@ afterEvaluate { project ->
     publishing {
         publications {
             maven(MavenPublication) {
-                groupId = GROUP
+                groupId =
                 artifactId = POM_ARTIFACT_ID
                 version = VERSION_NAME
                 afterEvaluate {
